@@ -1,0 +1,12 @@
+{
+    "name": "Course Evaluation",
+    "version": "1.0",
+    "description": "Fuck Course Evaluation",
+    "manifest_version": 2,
+
+    "content_scripts": [{
+        "matches": ["http://jwxk.ucas.ac.cn/*"],
+        "css": [],
+        "js": ["autofill.js"]
+    }]
+}
