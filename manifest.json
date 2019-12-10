@@ -7,6 +7,6 @@
     "content_scripts": [{
         "matches": ["http://jwxk.ucas.ac.cn/*"],
         "css": [],
-        "js": ["jquery-3.4.1.js", "autofill.js"]
+        "js": ["autofill.js"]
     }]
 }
