@@ -35,7 +35,7 @@ if (text5 != null){text5.value = '我出勤完整，在课堂回答问题方面'
 radios_name_list = ['2', '3', '67', '5', '6', '7', '68', '69', '71', '72', '73', '74','75','77','78','79','80','81','83', '84','85','86']
 
 for (var i = 0; i < radios_name_list.length; i++){
-    num = parseInt(Math.random()*2.9) + 3
+    num = parseInt(Math.random()*1.9) + 4
     radios = document.getElementsByName(prefix+radios_name_list[i])
     for (j = 0; j < radios.length; j++) {
         if (radios[j].value == num) {
