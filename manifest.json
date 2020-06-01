@@ -5,7 +5,7 @@
     "manifest_version": 2,
 
     "content_scripts": [{
-        "matches": ["http://jwxk.ucas.ac.cn/*"],
+        "matches": ["https://jwxk.ucas.ac.cn/*"],
         "css": [],
         "js": ["autofill.js"]
     }]
